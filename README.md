@@ -127,7 +127,9 @@ Main package set used in the solution:
 | `/auth/{everything}` | `/api/auth/{everything}` |
 | `/user/{everything}` | `/api/user/{everything}` |
 | `/vehicles/{everything}` | `/api/vehicles/{everything}` |
-| `/Reservation/{everything}` | `/api/Reservation/{everything}` |
+| `/reservation/{everything}` | `/api/reservation/{everything}` |
+
+> Note: In `CarRenter.Gateway/ocelot.json`, the reservation route is written as `/Reservation/{everything}` and `/api/Reservation/{everything}`.
 
 ## Validation and Error Handling
 
