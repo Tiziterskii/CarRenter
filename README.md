@@ -62,12 +62,12 @@ Main package set used in the solution:
 
 ### Vehicles
 - `Id` (PK)
-- `Marka`
+- `Brand` (`Marka`)
 - `Model`
-- `Rok`
-- `KwotaZaDzien`
-- `Opis`
-- `UrlObrazka`
+- `Year` (`Rok`)
+- `PricePerDay` (`KwotaZaDzien`)
+- `Description` (`Opis`)
+- `ImageUrl` (`UrlObrazka`)
 
 ### Reservations
 - `ReservationId` (PK)
@@ -127,7 +127,7 @@ Main package set used in the solution:
 | `/auth/{everything}` | `/api/auth/{everything}` |
 | `/user/{everything}` | `/api/user/{everything}` |
 | `/vehicles/{everything}` | `/api/vehicles/{everything}` |
-| `/Reservation/{everything}` | `/api/Reservation/{everything}` |
+| `/reservation/{everything}` *(configured as `/Reservation/{everything}` in `ocelot.json`)* | `/api/reservation/{everything}` *(configured as `/api/Reservation/{everything}` in `ocelot.json`)* |
 
 ## Validation and Error Handling
 
