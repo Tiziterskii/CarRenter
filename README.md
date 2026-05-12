@@ -127,7 +127,7 @@ Main package set used in the solution:
 | `/auth/{everything}` | `/api/auth/{everything}` |
 | `/user/{everything}` | `/api/user/{everything}` |
 | `/vehicles/{everything}` | `/api/vehicles/{everything}` |
-| `/reservation/{everything}` *(configured as `/Reservation/{everything}` in `ocelot.json`)* | `/api/reservation/{everything}` *(configured as `/api/Reservation/{everything}` in `ocelot.json`)* |
+| `/Reservation/{everything}` | `/api/Reservation/{everything}` |
 
 ## Validation and Error Handling
 
